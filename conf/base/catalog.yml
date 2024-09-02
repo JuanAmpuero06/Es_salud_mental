@@ -1,0 +1,4 @@
+Mental_Health_Dataset:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/Mental_Health_Dataset.csv
+
