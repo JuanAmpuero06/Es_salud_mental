@@ -2,3 +2,15 @@ Mental_Health_Dataset:
   type: pandas.CSVDataset
   filepath: data/01_raw/Mental_Health_Dataset.csv
 
+nulos_data:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/nulos_data.csv
+
+imputed_data:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/imputed_data.csv
+
+mapped_data:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/mapped_data.csv
+
