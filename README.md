@@ -1,52 +1,51 @@
-# psicologia
-
-# Proyecto de Predicción de Riesgo de Suicidio
-
-Este proyecto está enfocado en el desarrollo de un modelo predictivo para evaluar el riesgo de suicidio utilizando un conjunto de datos de salud mental. La finalidad es proporcionar herramientas analíticas avanzadas que puedan ayudar a identificar patrones y factores de riesgo asociados con comportamientos suicidas. Se empleará la metodología CRISP-DM y técnicas de aprendizaje automático para crear un sistema que pueda asistir a todas las personas en la detección temprana y prevención del suicidio, mejorando así la calidad y efectividad de las intervenciones clínicas o citas psicológicas.
-Este proyecto es particularmente relevante dado el impacto significativo que tiene el suicidio en la salud pública y el bienestar social. Pretende contribuir de manera sustancial a los esfuerzos globales para reducir la incidencia de suicidios, proporcionando recursos valiosos a profesionales de la salud mental y a la comunidad en general.
-    Preguntas claves:
-        ¿Qué factores están asociados con un mayor riesgo de suicidio?
-        ¿Qué acción se tomará en base a las predicciones?
+# Psychology
 
 
-## Instalar dependencias:
+# Suicide Risk Prediction Project
 
-Declare cualquier dependencia en `requirements.txt` para la instalación de `pip`.
+This project is focused on developing a predictive model to assess suicide risk using a mental health dataset. The aim is to provide advanced analytical tools that can help identify patterns and risk factors associated with suicidal behaviors. CRISP-DM methodology and machine learning techniques will be used to create a system that can assist all individuals in early detection and prevention of suicide, thereby improving the quality and effectiveness of clinical interventions or psychological appointments.
+This project is particularly relevant given the significant impact that suicide has on public health and social well-being. It aims to contribute substantially to global efforts to reduce the incidence of suicide by providing valuable resources to mental health professionals and the community at large.
+    Key questions:
+        What factors are associated with increased risk of suicide?
+        What action will be taken based on the predictions?
 
-Para instalarlas, ejecuta:
+
+## Installing Dependencies:
+
+Declare any dependencies in requirements.txt for pip installation.
+
+To install them, run:
 
 ```
 pip install -r requirements.txt
 ```
 
-## Como ejecutar un pipeline:
-Puede ejecutar su proyecto Kedro con:
+## How to run a pipeline:
+You can run your Kedro project with:
 
 ```
 kedro run
 ```
 
 
-### Como ejecutar Jupyter Notebook:
-Para utilizar los cuadernos de Jupyter en su proyecto Kedro, necesita instalar Jupyter:
-
+### How to run Jupyter Notebook:
+To use Jupyter notebooks in your Kedro project, you need to install Jupyter:
 ```
 pip install jupyter
 ```
 
-Después de instalar Jupyter, puede iniciar un servidor de notebook local:
-
+After installing Jupyter, you can start a local notebook server:
 ```
 kedro jupyter notebook
 ```
 
 
-### Otra opcion es usar IPython
-Y si quieres ejecutar una sesión IPython:
+### Another option is to use IPython
+And if you want to run an IPython session:
 
 ```
 kedro ipython
 ```
 
-### Documentación y Enlaces Útiles
+### Documentation and Useful Links
 - [Documentación de Kedro](https://docs.kedro.org)
