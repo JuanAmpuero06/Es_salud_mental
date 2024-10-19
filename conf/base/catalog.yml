@@ -14,3 +14,15 @@ mapped_data:
   type: pandas.CSVDataset
   filepath: data/02_intermediate/mapped_data.csv
 
+
+modelo_optimizado:
+  type: pickle.PickleDataset
+  filepath: data/06_models/modelo_optimizado.pkl
+  
+X_test:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/X_test.csv
+
+y_test:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/y_test.csv
