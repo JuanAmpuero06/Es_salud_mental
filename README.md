@@ -3,9 +3,11 @@
 
 # Suicide Risk Prediction Project
 
-The main objective of this project is to develop a predictive model based on data from the Starcraft II video game, which will allow predicting player performance. This will be achieved by analyzing various player variables, such as hours played per week (HoursPerWeek), actions per minute (APM), league level (LeagueIndex), and other relevant characteristics. This analysis will seek to provide insights that can help improve player performance, optimize gameplay, and also create effective strategies to enhance the player experience.
-
-CRISP-DM Methodology: To carry out this project, the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology will be used, one of the most popular and comprehensive methodologies for data mining and machine learning projects.
+This project is focused on developing a predictive model to assess suicide risk using a mental health dataset. The aim is to provide advanced analytical tools that can help identify patterns and risk factors associated with suicidal behaviors. CRISP-DM methodology and machine learning techniques will be used to create a system that can assist all individuals in early detection and prevention of suicide, thereby improving the quality and effectiveness of clinical interventions or psychological appointments.
+This project is particularly relevant given the significant impact that suicide has on public health and social well-being. It aims to contribute substantially to global efforts to reduce the incidence of suicide by providing valuable resources to mental health professionals and the community at large.
+    Key questions:
+        What factors are associated with increased risk of suicide?
+        What action will be taken based on the predictions?
 
 
 ## Installing Dependencies:
